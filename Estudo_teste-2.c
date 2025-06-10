@@ -1,15 +1,17 @@
 /*funcao com parametro e entrada de dados com validacao*/
+
 #include <stdio.h>
+
 void cumprimentos(char c) {
 	switch(c)
 	{
-		case 'N': printf ("\nBoa noite!"); break;
-		case 'T': printf ("\nBoa tarde!"); break;
-		default: printf ("\nBom dia!");
+		case 'N': printf ("\nBoa noite!\n"); break;
+		case 'T': printf ("\nBoa tarde!\n"); break;
+		default: printf ("\nBom dia!\n");
 	}
 }
-int main()
-{
+
+int main() {
 	char d;
 	do {
 		printf ("\nDigite M, T ou N: ");
