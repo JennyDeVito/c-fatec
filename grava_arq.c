@@ -20,7 +20,7 @@ int main() {
 	else {
 		printf("\nDigite o conteúdo do seu arquivo: \n");
 
-		//a funcao getche nao funciona no meu Linux
+		//a funcao getche nao funciona no meu Linux com gcc :(
 		while((c = getchar()) != '\n') {
 			fputc(c, fptr);
 		}
